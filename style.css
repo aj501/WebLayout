@@ -62,8 +62,7 @@ a {
     object-fit: contain;
 }
 .cover {
-    width: 20rem;
-    height: 10rem;
+    width: 10rem;
 }
 /***********************************************************************
  *  Grid Panel
