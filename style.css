@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    font-family:Arial;
 }
 
 .zone {
@@ -11,12 +12,22 @@ body {
     border:1px solid #bbb;
     transition: all 0.3s linear;
 }
-
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.box:hover {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    -transform:rotate(-5deg);
 }
 
 /***********************************************************************
